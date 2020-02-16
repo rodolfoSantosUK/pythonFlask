@@ -16,7 +16,7 @@ class Add(Resource):
         ret = x + y
 
         retMap = {
-            'Sum' : ret
+            'Sum' : ret,
             'Status code' : 200
         }
 
@@ -24,10 +24,10 @@ class Add(Resource):
 
 
     def get(self):
+        pass
 
     def put(self):
-
-
+        pass
 
 class Substract(Resource):
     pass
